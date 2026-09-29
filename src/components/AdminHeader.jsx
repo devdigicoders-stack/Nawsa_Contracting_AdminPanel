@@ -128,7 +128,7 @@ const AdminHeader = ({ toggleSidebar }) => {
                   <FiUser className="text-[#667085]" /> Profile Settings
                 </button>
                 <a 
-                  href={import.meta.env.VITE_PUBLIC_WEBSITE_URL || "http://localhost:5173/"} 
+                  href={import.meta.env.VITE_PUBLIC_WEBSITE_URL} 
                   target="_blank" 
                   rel="noopener noreferrer" 
                   className="w-full flex items-center gap-3 px-4 py-2.5 text-[14px] text-[#17212B] hover:bg-warm-white hover:text-primary-deep transition-colors" 

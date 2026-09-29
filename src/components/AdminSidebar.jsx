@@ -52,7 +52,7 @@ const AdminSidebar = ({ isOpen, closeSidebar }) => {
 
       <div className="p-4 border-t border-white/10 space-y-2">
         <a 
-          href={import.meta.env.VITE_PUBLIC_WEBSITE_URL || "http://localhost:5173/"} 
+          href={import.meta.env.VITE_PUBLIC_WEBSITE_URL} 
           target="_blank" 
           rel="noopener noreferrer" 
           className="flex items-center gap-4 px-4 py-3 text-white/70 hover:text-white hover:bg-white/5 transition-colors font-medium text-[15px]"

@@ -183,7 +183,7 @@ const Dashboard = () => {
         </div>
         <div>
           <a 
-            href={import.meta.env.VITE_PUBLIC_WEBSITE_URL || "http://localhost:5173/"} 
+            href={import.meta.env.VITE_PUBLIC_WEBSITE_URL} 
             target="_blank" 
             rel="noopener noreferrer" 
             className="inline-flex items-center gap-2 px-6 py-3 bg-primary-deep text-white font-heading text-[13px] font-bold uppercase tracking-widest hover:bg-[var(--color-gold-primary)] hover:text-primary-deep transition-colors"
@@ -223,7 +223,7 @@ const Dashboard = () => {
                 View All Enquiries
               </Link>
               <a 
-                href={import.meta.env.VITE_PUBLIC_WEBSITE_URL || "http://localhost:5173/"} 
+                href={import.meta.env.VITE_PUBLIC_WEBSITE_URL} 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="flex items-center justify-between p-4 bg-warm-white text-primary-deep font-bold hover:bg-primary-deep hover:text-white transition-colors"
